@@ -10,6 +10,7 @@ const NavbarResponsive = () => {
     { id: 1, name: "سبدخرید" , adrress:'/shoppingBuyPage' },
     { id: 2, name: "تماس با ما" , adrress:'/contactPage' },
     { id: 3, name: "تخفیفات" , adrress:'/salePage' },
+    { id: 3, name: "ورود" , adrress:'/loginPage' }
   ];
   const LinkNavbarId = useId()
   const sumbmitHandler =(e)=>{
@@ -22,9 +23,9 @@ const NavbarResponsive = () => {
   }
   const [flag, setflag] = useState(false)
   return (
-    <nav className={` ${styles.navItem} flex flex-row items-center justify-between p-2 w-100 bg-sky-900`}>
+    <nav className={` ${styles.navItem} flex flex-row items-center justify-between p-2 w-100 bg-gray-900`}>
         {dataNavbar.map((item) => {
-          return <Link  key={LinkNavbarId} href={item.adrress} className="text-center hidden sm:flex hover:text-slate-950 text-slate-200 bg-sky-900">{item.name}</Link>;
+          return <Link  key={LinkNavbarId} href={item.adrress} className="text-center hidden sm:flex hover:text-cyan-600 text-slate-200">{item.name}</Link>;
         })}
                <form onSubmit={sumbmitHandler} className={`hidden sm:flex ${styles.formItem}`}>
           <input ref={inputdata} className="bg-sky-900  border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" type="text" />
