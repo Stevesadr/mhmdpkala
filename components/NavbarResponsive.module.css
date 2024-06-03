@@ -1,0 +1,20 @@
+@media screen and (max-width: 638px) {
+  .iconNavbar{
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  .divIcons{
+    width: 100%;
+    display: flex !important;
+  }
+  .formItem{
+    display: flex;
+  }
+  .navItem{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  }
