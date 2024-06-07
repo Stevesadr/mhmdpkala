@@ -1,12 +1,12 @@
-import LoginScreen from '@/components/LoginScreen'
-import React from 'react'
+import LoginScreen from "@/components/LoginScreen";
+import React from "react";
 
 const loginPage = () => {
   return (
-    <div>
-      <LoginScreen/>
-    </div>
-  )
-}
+    <>
+      <LoginScreen />
+    </>
+  );
+};
 
-export default loginPage
+export default loginPage;

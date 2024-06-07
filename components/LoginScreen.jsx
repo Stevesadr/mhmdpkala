@@ -89,7 +89,7 @@ const LoginScreen = () => {
     username: Yup.string().required("enter name please"),
     password: Yup.string().required("enter password please")
   });
-  const submitHandler = (values) => {console.log(window.innerWidth)};
+  const submitHandler = (values) => {console.log("slama")};
   return (
     <div className={style.fullScreen}>
       {showBoxes()}
