@@ -3,9 +3,13 @@ import axioseDataResponse from '@/config/axios'
 import React from 'react'
 const productPage = (props) => {
   return (
-    <div>
-   <Card/>
-    </div>
+   <>
+   {
+    props.productData.map(item=>{
+      return <Card product={item}/>
+    })
+   }
+   </>
   )
 }
 
