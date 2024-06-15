@@ -4,7 +4,10 @@ import React from 'react'
 const productPage = (props) => {
   return (
     <div>
-   <Card/>
+      {props.productData.map((item)=>{
+        return <Card product={item}/>
+      })}
+   
     </div>
   )
 }

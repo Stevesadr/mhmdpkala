@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Card = () => {
+const Card = ({product}) => {
   return (
     
 

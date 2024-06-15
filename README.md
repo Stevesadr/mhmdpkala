@@ -38,3 +38,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 
+ root color:{
+ #070F2B rgb(7, 15, 43)
+ #1B1A55 rgb(27, 26, 85)
+ #535C91 rgb(83, 92, 145)
+ #9290C3 rgb(146, 144, 195)
+ }
